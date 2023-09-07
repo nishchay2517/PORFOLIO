@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+#navbar{
+    box-shadow: 0px 5px 50px red;
+    position: fixed;
+    z-index: 1;
+    width: 100vw;
+
+}
+#list{
+    margin-left: 950px;
+}
+#home{
+    padding-top: 100px
+}
+#photo{
+    margin-top: 40px;
+    margin-left: 670px;
+    filter: drop-shadow(0px 0px 25px rgb(129, 46, 46));
+    z-index: 0;
+    position: absolute;
+    /* rgb(93, 0, 255) */
+}
+#logo{
+    filter: drop-shadow(0px 0px 25px red);
+}
+#instaicon{
+    color: aliceblue;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 50px;
+}
+#whatsappicon{
+    color: aliceblue;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 100px;
+}
+#linkedicon{
+    color: aliceblue;
+    font-size: 30px;
+    position: absolute;
+    margin-left: 0px;
+}
+#content{
+    margin-top: 180px;
+    margin-left: 150px;
+    color:white;
+    box-shadow:0px 0px 10px linear-gradient(45deg, purple , yellow);
+    
+}
+
+
+
+#about{
+    margin-top: 350px;
+    display: flex;
+}
+
+#skills{
+   position: relative;
+}
+.skill{
+    filter: drop-shadow(0px 0px 4px rgb(43, 0, 255));
+}
+#about-content{
+    color:white;
+    position:absolute;
+    padding-left: 125px;
+    padding-top: 40px;
+    
+}
+#about-text{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    -webkit-text-stroke: 0.4px;
+    -webkit-text-stroke-color:rgb(187, 0, 255) ;
+    text-shadow: 0px 0px 40px rgb(218, 176, 176);
+}
